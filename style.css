@@ -87,3 +87,13 @@ nav, .hero__section {
     border: 0;
     margin-top: 15px;
 }
+
+.placeHolderForImage {
+    height: 220px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+}
