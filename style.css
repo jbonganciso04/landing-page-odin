@@ -102,7 +102,7 @@ nav, .hero__section {
 
 /* Some random information style */
 
-.someRandomInformation__section {
+.someRandomInformation__section, .quote__section {
     height: 529px;
 }
 
@@ -143,4 +143,11 @@ nav, .hero__section {
 .information__content__subtext p {
     font-size: 18px;
     text-align: center;
+}
+
+/* End of information section */
+
+/* Start of quote section */
+.quote__section {
+    background-color: #E5E7EB;
 }
