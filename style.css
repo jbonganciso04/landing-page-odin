@@ -7,7 +7,7 @@
 
 /* Start of navbar */
 
-nav, .hero__section {
+nav, .hero__section, .footer__section {
     background-color: #1f2937;
 }
 .navbar {
@@ -224,4 +224,15 @@ nav, .hero__section {
     border-radius: 10%;
     background-color: #3882F6;
     cursor: pointer;
+}
+
+/* End of cta section */
+
+/* Start footer section */
+.footer__section{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
