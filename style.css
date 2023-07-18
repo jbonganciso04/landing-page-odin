@@ -103,8 +103,7 @@ nav, .hero__section {
 /* Some random information style */
 
 .someRandomInformation__section {
-    height: 400px;
-    border: 1px solid red;
+    height: 529px;
 }
 
 .randomInformationHeaderDiv {
@@ -118,4 +117,30 @@ nav, .hero__section {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.information__contents {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 75px 0 ;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contentBox {
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 20%;
+}
+
+.information__content__subtext {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.information__content__subtext p {
+    font-size: 18px;
+    text-align: center;
 }
