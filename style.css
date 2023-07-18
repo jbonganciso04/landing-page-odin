@@ -102,7 +102,7 @@ nav, .hero__section {
 
 /* Some random information style */
 
-.someRandomInformation__section, .quote__section {
+.someRandomInformation__section {
     height: 529px;
 }
 
@@ -122,7 +122,7 @@ nav, .hero__section {
 .information__contents {
     display: flex;
     justify-content: space-around;
-    padding: 30px 0 75px 0 ;
+    padding: 0 0 75px 0 ;
     width: 65%;
     margin: 0 auto;
 }
@@ -150,4 +150,34 @@ nav, .hero__section {
 /* Start of quote section */
 .quote__section {
     background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote-container {
+    width: 63%;
+    margin: 0 auto;
+    padding-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.quote__text h4 {
+    font-size: 36px ;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.quote__author {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.quote__author p {
+    font-size: 24px;
+    font-weight: bolder;
 }
